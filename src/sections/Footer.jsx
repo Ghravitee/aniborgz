@@ -1,7 +1,7 @@
 import logo from "../assets/ani-logo.jpg";
 import telegram from "../assets/telegram.svg";
 import solana from "../assets/solana-sol-logo.svg";
-import twitter from "../assets/twitter.svg";
+// import twitter from "../assets/twitter.svg";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
