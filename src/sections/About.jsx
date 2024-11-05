@@ -1,4 +1,4 @@
-import ani2 from "../assets/ani-2.png";
+import ani2 from "../assets/ani-2.webp";
 import telegram from "../assets/telegram.svg";
 import solana from "../assets/solana-sol-logo.svg";
 // import twitter from "../assets/twitter.svg";

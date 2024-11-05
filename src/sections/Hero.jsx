@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import heroBg from "../assets/first-bg.png";
-import ani1 from "../assets/ani-1.png";
+import heroBg from "../assets/first-bg.webp";
+import ani1 from "../assets/ani-1.webp";
 
 const Hero = () => {
   // Define animations for different elements

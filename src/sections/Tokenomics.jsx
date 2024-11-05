@@ -1,4 +1,4 @@
-import ani9 from "../assets/Ani-9.jpeg";
+import ani9 from "../assets/Ani-9.webp";
 import { TfiAngleLeft } from "react-icons/tfi";
 import { motion } from "framer-motion";
 import { slideInFromTop, slideInFromTop2, zoomIn } from "../utils/motion";
