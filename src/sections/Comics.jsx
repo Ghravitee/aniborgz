@@ -1,6 +1,49 @@
 import { motion, useScroll, useTransform } from "framer-motion";
-import { cards } from "../utils/images";
 import Card from "../components/Card";
+import ani5 from "../assets/Ani-5.webp";
+import ani6 from "../assets/Ani-6.webp";
+import ani7 from "../assets/Ani-7.webp";
+import ani9 from "../assets/Ani-9.webp";
+import ani4 from "../assets/Ani-4.webp";
+import ani13 from "../assets/Ani-13.webp";
+import ani14 from "../assets/Ani-14.webp";
+const cards = [
+  {
+    url: ani5,
+    title: "Title 2",
+    id: 1,
+  },
+  {
+    url: ani6,
+    title: "Title 3",
+    id: 2,
+  },
+  {
+    url: ani7,
+    title: "Title 4",
+    id: 3,
+  },
+  {
+    url: ani9,
+    title: "Title 5",
+    id: 4,
+  },
+  {
+    url: ani4,
+    title: "Title 1",
+    id: 5,
+  },
+  {
+    url: ani13,
+    title: "Title 6",
+    id: 6,
+  },
+  {
+    url: ani14,
+    title: "Title 7",
+    id: 7,
+  },
+];
 import { useRef } from "react";
 
 const Comics = () => {
