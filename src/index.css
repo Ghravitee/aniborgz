@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  @apply md:grid grid-cols-[1fr_7rem_1fr] hidden;
+}
