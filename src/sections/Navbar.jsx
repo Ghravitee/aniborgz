@@ -24,7 +24,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
   return (
-    <header className="w-full py-4 px-8 fixed top-0 backdrop-blur-sm bg-transparent z-50">
+    <header className="w-full py-4 px-2 lg:px-6 fixed top-0 backdrop-blur-sm bg-transparent z-50">
       <nav className="hidden md:flex justify-between items-center max-w-screen-xl mx-auto">
         <div>
           <img src={logo} alt="logo" width={70} height={70} />
@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="flex items-center justify-between md:hidden">
+      <div className="flex items-center justify-between md:hidden w-[80%]">
         <div>
           <img src={logo} alt="logo" width={70} height={70} />
         </div>

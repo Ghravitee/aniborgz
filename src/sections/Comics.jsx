@@ -57,7 +57,7 @@ const Comics = () => {
   return (
     <section id="nft" ref={targetRef} className="relative h-[300vh] bg-black">
       <div className="mb-12 relative leading-7 uppercase unlock font-black">
-        <h2 className=" text-center text-[4rem] sm:text-[4rem] md:text-[5rem] lg:text-[4rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
+        <h2 className=" text-center text-[2rem] sm:text-[4rem] md:text-[5rem] lg:text-[4rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           $BORGZ COLLECTION
         </h2>
         <h2 className="absolute left-0 right-0 mx-auto text-center text-[1.5rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2rem] dark:text-white text-black">

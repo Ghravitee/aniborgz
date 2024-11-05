@@ -30,7 +30,7 @@ const About = () => {
           />
         </div>
         <div>
-          <p className="text-white text-2xl lg:text-3xl text-center">
+          <p className="text-white text-xl lg:text-3xl text-center">
             Borgz is transforming gaming by creating a blockchain ecosystem
             where players can own, trade, and control their in-game assets
             across multiple blockchains. Borgz will begin as a Solana-based
