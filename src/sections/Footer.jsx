@@ -2,6 +2,7 @@ import logo from "../assets/ani-logo.jpg";
 import telegram from "../assets/telegram.svg";
 import solana from "../assets/solana-sol-logo.svg";
 import twitter from "../assets/twitter.svg";
+import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../utils/motion";
@@ -47,16 +48,15 @@ const Footer = () => {
             height={50}
           />
           <img src={solana} alt="" width={50} height={50} />
-          <motion.img
+          <motion.a
             initial="hidden"
             whileInView="show"
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             viewport={{ once: true }}
-            src={twitter}
-            alt=""
-            width={50}
-            height={50}
-          />
+            href="https://x.com/Aniborgz"
+          >
+            <FaXTwitter className="text-6xl" />
+          </motion.a>
         </div>
       </nav>
     </footer>
