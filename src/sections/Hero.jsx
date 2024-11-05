@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full bg-black bg-opacity-50 text-white relative max-w-[1300px] mx-auto px-5">
         <div className="flex flex-col gap-5 items-start md:items-start text-center md:text-left">
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white hover:cursor-pointer"
+            className="text-4xl md:text-5xl lg:text-7xl font-bold text-white hover:cursor-pointer unlock"
             variants={titleAnimation}
             initial="hidden"
             animate="visible"

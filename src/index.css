@@ -5,6 +5,8 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
 }
 
 html {
@@ -13,4 +15,10 @@ html {
 
 .grid-container {
   @apply md:grid grid-cols-[1fr_7rem_1fr] hidden;
+}
+
+.unlock {
+  font-family: "Unlock", serif;
+  font-weight: 700;
+  font-style: normal;
 }

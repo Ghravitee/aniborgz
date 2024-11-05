@@ -5,8 +5,8 @@ import { slideInFromTop, slideInFromTop2, zoomIn } from "../utils/motion";
 
 const Tokenomics = () => {
   return (
-    <div id="tokenomics" className="max-w-[1300px] mx-auto my-20  ">
-      <div className="mb-24 relative leading-7 uppercase anton-regular font-black">
+    <div id="tokenomics" className="max-w-[1300px] mx-auto my-20 ">
+      <div className="mb-24 relative leading-7 uppercase unlock font-black">
         <h2 className=" text-center text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           TOKENOMICS
         </h2>
@@ -33,7 +33,9 @@ const Tokenomics = () => {
             viewport={{ once: true }}
             className="size-48 flex justify-center items-center px-4 py-4 absolute lg:-right-[60%] lg:top-[12%] bg-red-950 rounded-full"
           >
-            <p className="text-2xl font-bold text-center">$BORGZ TOKEN</p>
+            <p className="text-2xl font-bold text-center unlock">
+              $BORGZ TOKEN
+            </p>
           </motion.div>
           <motion.div
             variants={zoomIn(0.4, 1)}
@@ -42,7 +44,7 @@ const Tokenomics = () => {
             viewport={{ once: true }}
             className="size-56 flex justify-center items-center rounded-full absolute lg:-left-[65%] lg:top-[12%] bg-red-950"
           >
-            <p className="text-2xl font-bold text-center">
+            <p className="text-2xl font-bold text-center unlock">
               TOTAL SUPPLY: 1,000,000,000
             </p>
           </motion.div>
@@ -60,7 +62,7 @@ const Tokenomics = () => {
           viewport={{ once: true }}
           className="size-48 flex justify-center items-center px-4 py-4 bg-red-950 rounded-full"
         >
-          <p className="text-2xl font-bold text-center">$BORGZ TOKEN</p>
+          <p className="text-2xl font-bold text-center unlock">$BORGZ TOKEN</p>
         </motion.div>
         <div className="mx-auto  w-[3px] h-16 bg-gray-400" />
 
@@ -77,7 +79,7 @@ const Tokenomics = () => {
           viewport={{ once: true }}
           className="size-56 flex justify-center items-center rounded-full bg-red-950"
         >
-          <p className="text-2xl font-bold text-center">
+          <p className="text-2xl font-bold text-center unlock">
             TOTAL SUPPLY: 1,000,000,000
           </p>
         </motion.div>

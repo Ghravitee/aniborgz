@@ -1,7 +1,7 @@
 const Presale = () => {
   return (
     <div id="presale" className="max-w-[1300px] mx-auto py-10 px-5 md:py-20">
-      <div className="mb-12 md:mb-24 relative leading-7 uppercase anton-regular font-black">
+      <div className="mb-6 relative leading-7 uppercase unlock font-black">
         {/* Large Background Text */}
         <h2 className="text-center text-[2.5rem] sm:text-[3rem] md:text-[4rem] lg:text-[5rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           PRESALE PROCESS

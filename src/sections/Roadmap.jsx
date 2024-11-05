@@ -9,7 +9,7 @@ const Roadmap = () => {
 
   return (
     <div id="roadmap" className="max-w-[1300px] mx-auto my-20 px-6">
-      <div className="mb-24 relative leading-7 uppercase anton-regular font-black">
+      <div className="mb-24 relative leading-7 uppercase unlock font-black">
         <h2 className=" text-center text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           ROADMAP
         </h2>
@@ -17,7 +17,7 @@ const Roadmap = () => {
           ROADMAP
         </h2>
       </div>
-      <h3 className="text-white text-center text-2xl">
+      <h3 className="text-white text-center text-2xl unlock">
         Our Vision and Path to the Future
       </h3>
 
@@ -27,7 +27,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">01</p>
+                <p className="text-3xl unlock">01</p>
               </div>
               <motion.div className="h-full w-[2px] bg-white" />
             </div>
@@ -38,7 +38,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 1: Initial Solana Launch and Community Building
             </h1>
             <div className="flex gap items-center gap-4">
@@ -88,7 +88,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">01</p>
+                <p className="text-3xl unlock">01</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -99,7 +99,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 1: Initial Solana Launch and Community Building
             </h1>
             <div className="flex gap items-center gap-4">
@@ -157,7 +157,7 @@ const Roadmap = () => {
             variants={fadeIn("right", "tween", 0.5, 0.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 2: Ecosystem Development and Enhanced Utility on Solana
             </h1>
             <div className="flex gap items-center gap-4">
@@ -203,7 +203,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">02</p>
+                <p className="text-3xl unlock">02</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -215,7 +215,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">02</p>
+                <p className="text-3xl unlock">02</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -226,7 +226,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.9)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 2: Ecosystem Development and Enhanced Utility on Solana
             </h1>
             <div className="flex gap items-center gap-4">
@@ -281,7 +281,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">03</p>
+                <p className="text-3xl unlock">03</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -292,7 +292,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.9)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 3: Transition to Cosmos and Cross-Chain Compatibility
             </h1>
             <div className="flex gap items-center gap-4">
@@ -342,7 +342,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">03</p>
+                <p className="text-3xl unlock">03</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -353,7 +353,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 1.2)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 3: Transition to Cosmos and Cross-Chain Compatibility
             </h1>
             <div className="flex gap items-center gap-4">
@@ -411,7 +411,7 @@ const Roadmap = () => {
             variants={fadeIn("right", "tween", 0.5, 1)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 4: Cosmos Mainnet Launch and Marketplace Integration
             </h1>
             <div className="flex gap items-center gap-4">
@@ -457,7 +457,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">04</p>
+                <p className="text-3xl unlock">04</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -468,7 +468,7 @@ const Roadmap = () => {
           <div className="">
             <div className="flex flex-col items-center gap-4 h-full">
               <div className="flex items-center justify-center">
-                <p className="text-3xl">04</p>
+                <p className="text-3xl unlock">04</p>
               </div>
               <div className="h-full w-[2px] bg-white" />
             </div>
@@ -479,7 +479,7 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 1.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl">
+            <h1 className="text-2xl unlock">
               Phase 4: Cosmos Mainnet Launch and Marketplace Integration
             </h1>
             <div className="flex gap items-center gap-4">
