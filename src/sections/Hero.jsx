@@ -55,7 +55,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
           >
-            $Borgz: The Future of Cross-Chain Gaming
+            $Borgs: The Future of Cross-Chain Gaming
           </motion.h1>
 
           <motion.h1

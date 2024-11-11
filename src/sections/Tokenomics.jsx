@@ -34,7 +34,7 @@ const Tokenomics = () => {
             className="size-48 flex justify-center items-center px-4 py-4 absolute lg:-right-[60%] lg:top-[12%] bg-red-950 rounded-full"
           >
             <p className="text-2xl font-bold text-center unlock">
-              $BORGZ TOKEN
+              $BORGS TOKEN
             </p>
           </motion.div>
           <motion.div
@@ -62,7 +62,7 @@ const Tokenomics = () => {
           viewport={{ once: true }}
           className="size-48 flex justify-center items-center px-4 py-4 bg-red-950 rounded-full"
         >
-          <p className="text-2xl font-bold text-center unlock">$BORGZ TOKEN</p>
+          <p className="text-2xl font-bold text-center unlock">$BORGS TOKEN</p>
         </motion.div>
         <div className="mx-auto  w-[3px] h-16 bg-gray-400" />
 

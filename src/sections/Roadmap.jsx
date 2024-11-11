@@ -47,8 +47,8 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Launch $BORGZ offering investors discounts, staking rewards, and
-                whitelist access to Aniborgz NFTs.
+                Launch $BORGS offering investors discounts, staking rewards, and
+                whitelist access to Aniborgs NFTs.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
@@ -59,7 +59,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Introduce the Aniborgz NFT collection on Magic Eden, providing
+                Introduce the Aniborgs NFT collection on Magic Eden, providing
                 immediate in-game perks and governance rights.
               </p>
             </div>
@@ -89,8 +89,8 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Launch $BORGZ offering investors discounts, staking rewards, and
-                whitelist access to Aniborgz NFTs.
+                Launch $BORGS offering investors discounts, staking rewards, and
+                whitelist access to Aniborgs NFTs.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
@@ -101,7 +101,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Introduce the Aniborgz NFT collection on Magic Eden, providing
+                Introduce the Aniborgs NFT collection on Magic Eden, providing
                 immediate in-game perks and governance rights.
               </p>
             </div>
@@ -229,7 +229,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Begin developing the Borgz blockchain on Cosmos SDK with
+                Begin developing the Borsz blockchain on Cosmos SDK with
                 gaming-focused modules.
               </p>
             </div>
@@ -289,7 +289,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Deploy the Borgz testnet on Cosmos, inviting developers, early
+                Deploy the Borgs testnet on Cosmos, inviting developers, early
                 adopters, and community members to test features, in-game
                 economies, and NFT transfers.
               </p>
@@ -320,7 +320,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Deploy the Borgz blockchain on Cosmos SDK, providing access for
+                Deploy the Borgs blockchain on Cosmos SDK, providing access for
                 developers, gamers, and stakeholders.
               </p>
             </div>
@@ -332,7 +332,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Launch a Borgz-native marketplace where players can trade,
+                Launch a Borgs-native marketplace where players can trade,
                 stake, and use NFTs within the ecosystem.
               </p>
             </div>
@@ -373,7 +373,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Deploy the Borgz blockchain on Cosmos SDK, providing access for
+                Deploy the Borgs blockchain on Cosmos SDK, providing access for
                 developers, gamers, and stakeholders.
               </p>
             </div>
@@ -385,7 +385,7 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Launch a Borgz-native marketplace where players can trade,
+                Launch a Borgs-native marketplace where players can trade,
                 stake, and use NFTs within the ecosystem.
               </p>
             </div>
@@ -425,7 +425,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Pursue listing on Binance and other major exchanges to increase
-                accessibility and liquidity for $BORGZ.
+                accessibility and liquidity for $BORGS.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
@@ -437,7 +437,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Partner with game developers to add exclusive games to the Borgs
-                blockchain, expanding use cases for $BORGZ and Aniborgs NFTs.
+                blockchain, expanding use cases for $BORGS and Aniborgs NFTs.
               </p>
             </div>
           </motion.div>
@@ -470,7 +470,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Pursue listing on Binance and other major exchanges to increase
-                accessibility and liquidity for $BORGZ.
+                accessibility and liquidity for $BORGS.
               </p>
             </div>
 
@@ -483,7 +483,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Partner with game developers to add exclusive games to the Borgs
-                blockchain, expanding use cases for $BORGZ and Aniborgs NFTs.
+                blockchain, expanding use cases for $BORGS and Aniborgs NFTs.
               </p>
             </div>
           </motion.div>

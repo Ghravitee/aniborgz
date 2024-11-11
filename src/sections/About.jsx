@@ -14,10 +14,10 @@ const About = () => {
     <div id="about" className="max-w-[1300px] mx-auto rounded-2xl my-20">
       <div className="mb-12 relative leading-7 uppercase unlock font-black">
         <h2 className=" text-center text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
-          ABOUT $BORGZ
+          ABOUT $BORGS
         </h2>
         <h3 className="absolute left-0 right-0 mx-auto text-center text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] dark:text-white text-black">
-          ABOUT $BORGZ
+          ABOUT $BORGS
         </h3>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-10 px-10">
@@ -33,13 +33,13 @@ const About = () => {
         </div>
         <div>
           <p className="text-white text-xl lg:text-3xl text-center">
-            Borgz is transforming gaming by creating a blockchain ecosystem
+            Borgs is transforming gaming by creating a blockchain ecosystem
             where players can own, trade, and control their in-game assets
-            across multiple blockchains. Borgz will begin as a Solana-based
-            token, giving early supporters exclusive access to the Aniborgz NFT
+            across multiple blockchains. Borgs will begin as a Solana-based
+            token, giving early supporters exclusive access to the Aniborgs NFT
             collection, staking rewards, and governance privileges. This initial
             phase leverages Solana’s speed, low fees, and active community,
-            laying the groundwork for a strong Borgz user base.
+            laying the groundwork for a strong Borgs user base.
           </p>
           <div className="flex justify-center gap-4 items-center mt-6">
             <img src={binance} alt="" width={70} height={70} />
