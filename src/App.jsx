@@ -9,7 +9,7 @@ import Footer from "./sections/Footer";
 
 const App = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full overflow-x-hidden lg:overflow-visible">
       <Navbar />
       <Hero />
       <About />

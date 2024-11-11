@@ -38,48 +38,29 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl unlock">
-              Phase 1: Initial Solana Launch and Community Building
-            </h1>
+            <h1 className="text-2xl unlock">Phase 1: Initial Solana Launch</h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Token Presale on Solana</p>
+              <p className="">Token sale</p>
             </div>
             <div>
               <p>
-                Launch the $BORGZ token presale, accepting SOL from early
-                investors, who will receive exclusive benefits like discounted
-                tokens, staking rewards, and whitelist access to Aniborgz NFTs.
+                Launch $BORGZ offering investors discounts, staking rewards, and
+                whitelist access to Aniborgz NFTs.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Aniborgz NFT Collection on Magic Eden</p>
+              <p className="">NFT Launch on Magic Eden</p>
             </div>
             <div>
               <p>
-                Mint and launch the exclusive Aniborgz NFTs on Magic Eden.
-                Whitelisted presale participants will have early access to these
-                NFTs, which come with unique in-game privileges, staking
-                bonuses, and governance rights within the Borgz ecosystem.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Community Growth Initiatives</p>
-            </div>
-            <div>
-              <p>
-                Kickstart community-building activities, including social media
-                campaigns, influencer partnerships, and community engagement to
-                establish Borgz’s presence in the gaming and blockchain
-                communities.
+                Introduce the Aniborgz NFT collection on Magic Eden, providing
+                immediate in-game perks and governance rights.
               </p>
             </div>
           </motion.div>
@@ -99,48 +80,29 @@ const Roadmap = () => {
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             className="flex flex-col gap-4"
           >
-            <h1 className="text-2xl unlock">
-              Phase 1: Initial Solana Launch and Community Building
-            </h1>
+            <h1 className="text-2xl unlock">Phase 1: Initial Solana Launch</h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Token Presale on Solana</p>
+              <p className="">Token sale</p>
             </div>
             <div>
               <p>
-                Launch the $BORGZ token presale, accepting SOL from early
-                investors, who will receive exclusive benefits like discounted
-                tokens, staking rewards, and whitelist access to Aniborgz NFTs.
+                Launch $BORGZ offering investors discounts, staking rewards, and
+                whitelist access to Aniborgz NFTs.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Aniborgz NFT Collection on Magic Eden</p>
+              <p className="">NFT Launch on Magic Eden</p>
             </div>
             <div>
               <p>
-                Mint and launch the exclusive Aniborgz NFTs on Magic Eden.
-                Whitelisted presale participants will have early access to these
-                NFTs, which come with unique in-game privileges, staking
-                bonuses, and governance rights within the Borgz ecosystem.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Community Growth Initiatives</p>
-            </div>
-            <div>
-              <p>
-                Kickstart community-building activities, including social media
-                campaigns, influencer partnerships, and community engagement to
-                establish Borgz’s presence in the gaming and blockchain
-                communities.
+                Introduce the Aniborgz NFT collection on Magic Eden, providing
+                immediate in-game perks and governance rights.
               </p>
             </div>
           </motion.div>
@@ -158,45 +120,27 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 2: Ecosystem Development and Enhanced Utility on Solana
+              Phase 2: Expanding Utility and Staking on Solana
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Enhanced Staking Rewards</p>
+              <p className="">Enhanced Staking Program</p>
             </div>
             <div>
-              <p>
-                Activate the boosted staking rewards for presale investors,
-                providing early holders with higher returns on their $BORGZ
-                tokens.
-              </p>
+              <p>Activate boosted staking rewards for early investors.</p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Exclusive Governance Rollout</p>
+              <p className="">Early DAO Participation</p>
             </div>
             <div>
               <p>
-                Grant presale investors early voting rights to participate in
-                the Borgz DAO, enabling them to influence important decisions in
-                the ecosystem as it takes shape.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Game and NFT Utility Expansion</p>
-            </div>
-            <div>
-              <p>
-                Develop initial use cases and in-game utility for Aniborgz NFTs
-                within partner games on Solana, allowing holders to experience
-                the perks of in-game assets in real-time.
+                Initiate governance privileges for early investors, allowing
+                them to participate in key ecosystem decisions.
               </p>
             </div>
           </motion.div>
@@ -227,45 +171,27 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 2: Ecosystem Development and Enhanced Utility on Solana
+              Phase 2: Expanding Utility and Staking on Solana
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Enhanced Staking Rewards</p>
+              <p className="">Enhanced Staking Program</p>
             </div>
             <div>
-              <p>
-                Activate the boosted staking rewards for presale investors,
-                providing early holders with higher returns on their $BORGZ
-                tokens.
-              </p>
+              <p>Activate boosted staking rewards for early investors.</p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Exclusive Governance Rollout</p>
+              <p className="">Early DAO Participation</p>
             </div>
             <div>
               <p>
-                Grant presale investors early voting rights to participate in
-                the Borgz DAO, enabling them to influence important decisions in
-                the ecosystem as it takes shape.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Game and NFT Utility Expansion</p>
-            </div>
-            <div>
-              <p>
-                Develop initial use cases and in-game utility for Aniborgz NFTs
-                within partner games on Solana, allowing holders to experience
-                the perks of in-game assets in real-time.
+                Initiate governance privileges for early investors, allowing
+                them to participate in key ecosystem decisions.
               </p>
             </div>
           </motion.div>
@@ -293,19 +219,18 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 3: Transition to Cosmos and Cross-Chain Compatibility
+              Phase 3: Transition to Cosmos SDK and Injective Integration
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Cosmos-Based Borgz Blockchain Development</p>
+              <p className="">Cosmos-Based Blockchain Development</p>
             </div>
             <div>
               <p>
-                Begin developing the Borgz blockchain using Cosmos SDK,
-                designing it specifically to support high-speed transactions,
-                low fees, and customizable gaming-focused features.
+                Begin developing the Borgz blockchain on Cosmos SDK with
+                gaming-focused modules.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
@@ -316,23 +241,9 @@ const Roadmap = () => {
             </div>
             <div>
               <p>
-                Leverage Injective’s interoperability technology to create a
-                cross-chain bridge, allowing $BORGZ tokens and Aniborgz NFTs to
-                be seamlessly moved from Solana to the Cosmos-based Borgz
-                blockchain.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Early Testnet Launch</p>
-            </div>
-            <div>
-              <p>
-                Deploy the Borgz testnet on Cosmos, inviting developers, early
-                adopters, and community members to test features, in-game
-                economies, and NFT transfers.
+                Implement Injective’s cross-chain technology to enable the
+                migration of $BORGS tokens and Aniborgs NFTs from Solana to
+                Cosmos.
               </p>
             </div>
           </motion.div>
@@ -354,35 +265,22 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 3: Transition to Cosmos and Cross-Chain Compatibility
+              Phase 3: Transition to Cosmos SDK and Injective Integration
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Cosmos-Based Borgz Blockchain Development</p>
+              <p className="">Cosmos-Based Blockchain Development</p>
             </div>
             <div>
               <p>
-                Begin developing the Borgz blockchain using Cosmos SDK,
-                designing it specifically to support high-speed transactions,
-                low fees, and customizable gaming-focused features.
+                Implement Injective’s cross-chain technology to enable the
+                migration of $BORGS tokens and Aniborgs NFTs from Solana to
+                Cosmos.
               </p>
             </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Cross-Chain Bridge via Injective</p>
-            </div>
-            <div>
-              <p>
-                Leverage Injective’s interoperability technology to create a
-                cross-chain bridge, allowing $BORGZ tokens and Aniborgz NFTs to
-                be seamlessly moved from Solana to the Cosmos-based Borgz
-                blockchain.
-              </p>
-            </div>
+
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
@@ -412,45 +310,30 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 4: Cosmos Mainnet Launch and Marketplace Integration
+              Phase 4: Mainnet Launch on Cosmos and Marketplace Integration
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Mainnet Launch on Cosmos SDK</p>
+              <p className="">Mainnet Deployment</p>
             </div>
             <div>
               <p>
-                Activate the boosted staking rewards for presale investors,
-                providing early holders with higher returns on their $BORGZ
-                tokens.
+                Deploy the Borgz blockchain on Cosmos SDK, providing access for
+                developers, gamers, and stakeholders.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Exclusive Governance Rollout</p>
+              <p className="">NFT Marketplace</p>
             </div>
             <div>
               <p>
-                Grant presale investors early voting rights to participate in
-                the Borgz DAO, enabling them to influence important decisions in
-                the ecosystem as it takes shape.
-              </p>
-            </div>
-            <div className="flex gap items-center gap-4">
-              <div>
-                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
-              </div>
-              <p className="">Game and NFT Utility Expansion</p>
-            </div>
-            <div>
-              <p>
-                Develop initial use cases and in-game utility for Aniborgz NFTs
-                within partner games on Solana, allowing holders to experience
-                the perks of in-game assets in real-time.
+                Launch a Borgz-native marketplace where players can trade,
+                stake, and use NFTs within the ecosystem.
               </p>
             </div>
           </motion.div>
@@ -480,45 +363,127 @@ const Roadmap = () => {
             className="flex flex-col gap-4"
           >
             <h1 className="text-2xl unlock">
-              Phase 4: Cosmos Mainnet Launch and Marketplace Integration
+              Phase 4: Mainnet Launch on Cosmos and Marketplace Integration
             </h1>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Mainnet Launch on Cosmos SDK</p>
+              <p className="">Mainnet Deployment</p>
             </div>
             <div>
               <p>
-                Activate the boosted staking rewards for presale investors,
-                providing early holders with higher returns on their $BORGZ
-                tokens.
+                Deploy the Borgz blockchain on Cosmos SDK, providing access for
+                developers, gamers, and stakeholders.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Exclusive Governance Rollout</p>
+              <p className="">NFT Marketplace</p>
             </div>
             <div>
               <p>
-                Grant presale investors early voting rights to participate in
-                the Borgz DAO, enabling them to influence important decisions in
-                the ecosystem as it takes shape.
+                Launch a Borgz-native marketplace where players can trade,
+                stake, and use NFTs within the ecosystem.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Phase 5 */}
+        {/* Phase 5 */}
+        {/* Phase 5 */}
+        {/* Phase 5 */}
+
+        <div className="grid-container my-6">
+          <div>{/* <img src={ani12} alt="" /> */}</div>
+          <div className="">
+            <div className="flex flex-col items-center gap-4 h-full">
+              <div className="flex items-center justify-center">
+                <p className="text-3xl unlock">05</p>
+              </div>
+              <div className="h-full w-[2px] bg-white" />
+            </div>
+          </div>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={fadeIn("left", "tween", 0.5, 0.9)}
+            className="flex flex-col gap-4"
+          >
+            <h1 className="text-2xl unlock">
+              Phase 5: Major Exchange Listings and Partnerships
+            </h1>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Binance Listing</p>
+            </div>
+            <div>
+              <p>
+                Pursue listing on Binance and other major exchanges to increase
+                accessibility and liquidity for $BORGZ.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
               <div>
                 <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
               </div>
-              <p className="">Game and NFT Utility Expansion</p>
+              <p className="">New Game Integrations</p>
             </div>
             <div>
               <p>
-                Develop initial use cases and in-game utility for Aniborgz NFTs
-                within partner games on Solana, allowing holders to experience
-                the perks of in-game assets in real-time.
+                Partner with game developers to add exclusive games to the Borgs
+                blockchain, expanding use cases for $BORGZ and Aniborgs NFTs.
+              </p>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="flex md:hidden gap-6 my-6">
+          <div className="">
+            <div className="flex flex-col items-center gap-4 h-full">
+              <div className="flex items-center justify-center">
+                <p className="text-3xl unlock">05</p>
+              </div>
+              <div className="h-full w-[2px] bg-white" />
+            </div>
+          </div>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={fadeIn("left", "tween", 0.5, 1.2)}
+            className="flex flex-col gap-4"
+          >
+            <h1 className="text-2xl unlock">
+              Phase 5: Major Exchange Listings and Partnerships
+            </h1>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Binance Listing</p>
+            </div>
+            <div>
+              <p>
+                Pursue listing on Binance and other major exchanges to increase
+                accessibility and liquidity for $BORGZ.
+              </p>
+            </div>
+
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">New Game Integrations</p>
+            </div>
+            <div>
+              <p>
+                Partner with game developers to add exclusive games to the Borgs
+                blockchain, expanding use cases for $BORGZ and Aniborgs NFTs.
               </p>
             </div>
           </motion.div>
