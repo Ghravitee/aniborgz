@@ -2,6 +2,8 @@ import ani2 from "../assets/ani-2.webp";
 import telegram from "../assets/telegram.svg";
 import solana from "../assets/solana-sol-logo.svg";
 // import twitter from "../assets/twitter.svg";
+import binance from "../assets/binance-logo.svg";
+import cmc from "../assets/coinmarketcap-1.svg";
 import { motion } from "framer-motion";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -40,17 +42,19 @@ const About = () => {
             laying the groundwork for a strong Borgz user base.
           </p>
           <div className="flex justify-center gap-4 items-center mt-6">
-            <motion.img
+            <img src={binance} alt="" width={70} height={70} />
+            <motion.a
               initial="hidden"
               whileInView="show"
               variants={fadeIn("right", "tween", 0.5, 0.5)}
               viewport={{ once: true }}
-              src={telegram}
-              alt=""
-              width={70}
-              height={70}
-            />
-            <img src={solana} alt="" width={70} height={70} />
+              href=""
+            >
+              <img src={telegram} alt="" width={70} height={70} />
+            </motion.a>
+            <a href="">
+              <img src={solana} alt="" width={70} height={70} />
+            </a>
 
             <motion.a
               initial="hidden"
@@ -61,6 +65,7 @@ const About = () => {
             >
               <FaXTwitter className="text-6xl" />
             </motion.a>
+            <img src={cmc} alt="" width={70} height={70} />
           </div>
         </div>
       </div>
