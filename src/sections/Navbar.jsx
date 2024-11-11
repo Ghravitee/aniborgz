@@ -37,9 +37,9 @@ const Navbar = () => {
           <li className="cursor-pointer">
             <a href="#nft">NFTs</a>
           </li>
-          <li className="cursor-pointer">
+          {/* <li className="cursor-pointer">
             <a href="#presale">Presale</a>
-          </li>
+          </li> */}
           <li className="hover:cursor-pointer">
             <a href="#roadmap">Roadmap</a>
           </li>

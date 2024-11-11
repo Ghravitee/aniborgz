@@ -57,7 +57,7 @@ const About = () => {
               whileInView="show"
               variants={fadeIn("left", "tween", 0.5, 0.5)}
               viewport={{ once: true }}
-              href="https://x.com/Aniborgz"
+              href="https://x.com/anonomize?s=21"
             >
               <FaXTwitter className="text-6xl" />
             </motion.a>

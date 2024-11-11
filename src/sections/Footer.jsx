@@ -20,9 +20,9 @@ const Footer = () => {
           <li className="cursor-pointer">
             <a href="#nft">NFTs</a>
           </li>
-          <li className="cursor-pointer">
+          {/* <li className="cursor-pointer">
             <a href="#presale">Presale</a>
-          </li>
+          </li> */}
           <li className="hover:cursor-pointer">
             <a href="#roadmap">Roadmap</a>
           </li>
@@ -53,7 +53,7 @@ const Footer = () => {
             whileInView="show"
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             viewport={{ once: true }}
-            href="https://x.com/Aniborgz"
+            href="https://x.com/anonomize?s=21"
           >
             <FaXTwitter className="text-6xl" />
           </motion.a>
