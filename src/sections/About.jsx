@@ -48,7 +48,7 @@ const About = () => {
               whileInView="show"
               variants={fadeIn("right", "tween", 0.5, 0.5)}
               viewport={{ once: true }}
-              href=""
+              href="https://t.me/aniborgsOnSol"
             >
               <img src={telegram} alt="" width={70} height={70} />
             </motion.a>
@@ -61,7 +61,7 @@ const About = () => {
               whileInView="show"
               variants={fadeIn("left", "tween", 0.5, 0.5)}
               viewport={{ once: true }}
-              href="https://x.com/anonomize?s=21"
+              href=""
             >
               <FaXTwitter className="text-6xl" />
             </motion.a>
