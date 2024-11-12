@@ -58,7 +58,7 @@ const Footer = () => {
             whileInView="show"
             variants={fadeIn("left", "tween", 0.5, 0.5)}
             viewport={{ once: true }}
-            href=""
+            href="https://x.com/aniborgsxyz"
           >
             <FaXTwitter className="text-6xl" />
           </motion.a>

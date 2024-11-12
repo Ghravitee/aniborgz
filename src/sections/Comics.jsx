@@ -78,7 +78,7 @@
 // export default Comics;
 
 import { useRef } from "react";
-import { slideInFromLeft, slideInFromRight, fadeIn } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Card from "../components/Card";
 import ani5 from "../assets/Ani-5.webp";
