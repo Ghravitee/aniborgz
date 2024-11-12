@@ -24,7 +24,7 @@ const About = () => {
       <div className="grid grid-cols-[10px_1fr] gap-3 mt-20 max-w-[50rem] mx-auto">
         <div className="bg-red-900 h-full w-2" />
         <h2 className="italic text-[1.5rem]">
-          Borgz Blockchain: A Cross-Chain Decentralized Gaming Platform Built
+          Borgs Blockchain: A Cross-Chain Decentralized Gaming Platform Built
           for Ownership and Interoperability
         </h2>
       </div>
@@ -85,21 +85,21 @@ const About = () => {
           <h3 className="unlock lg:text-[1.2rem]">Initial Solana Deployment</h3>
           <ul className="max-w-[35rem]">
             <li>
-              • Token and NFT Foundation: Borgz begins as an SPL token ($BORGS)
+              • Token and NFT Foundation: Borgs begins as an SPL token ($BORGS)
               on Solana, chosen for its high throughput and low fees, which
               supports rapid adoption and community engagement.
             </li>
             <li>
-              • Aniborgs NFT Collection: Aniborgz NFTs will be initially minted
+              • Aniborgs NFT Collection: Aniborgs NFTs will be initially minted
               on Solana and listed on Magic Eden, Solana’s leading NFT
               marketplace. This collection introduces in-game privileges,
               staking bonuses, and governance rights, acting as foundational
-              assets for the Borgz ecosystem.
+              assets for the Borgs ecosystem.
             </li>
             <li>
               • Liquidity and Accessibility: Solana’s established infrastructure
-              enables $BORGZ and Aniborgz NFTs to reach a large user base
-              quickly, laying the groundwork for the Borgz community and initial
+              enables $BORGS and Aniborgs NFTs to reach a large user base
+              quickly, laying the groundwork for the Borgs community and initial
               utility within the Solana network.
             </li>
           </ul>
@@ -108,20 +108,20 @@ const About = () => {
           <h3 className="unlock lg:text-[1.2rem]">Transition to Cosmos SDK</h3>
           <ul className="max-w-[35rem]">
             <li>
-              • Custom-Built Cosmos-Based Blockchain: Borgz will transition to a
+              • Custom-Built Cosmos-Based Blockchain: Borgs will transition to a
               Cosmos SDK-based blockchain specifically optimized for gaming,
               allowing for custom modules to manage in-game economies, dynamic
               NFTs, and player governance.
             </li>
             <li>
               • In-Game Economy Management: Cosmos SDK’s modular design allows
-              Borgz to implement features like NFT minting, asset management,
+              Borgs to implement features like NFT minting, asset management,
               and in-game rewards to create a fully decentralized gaming
               economy.
             </li>
             <li>
               • Enhanced Speed and Scalability: With Tendermint Core’s consensus
-              algorithm, the Borgz blockchain will handle high-frequency
+              algorithm, the Borgs blockchain will handle high-frequency
               transactions and minimize latency, which is crucial for real-time
               gaming interactions.
             </li>
@@ -138,10 +138,10 @@ const About = () => {
           <ul className="max-w-[35rem]">
             <li>
               • Injective’s Cross-Chain Bridge: Injective supports cross-chain
-              asset transfers, allowing $BORGZ tokens and Aniborgz NFTs to move
-              from Solana to the Cosmos-based Borgz blockchain. This bridge will
-              extend the utility of Aniborgz NFTs and $BORGZ tokens by unlocking
-              new features and staking benefits on the Borgz Cosmos network.
+              asset transfers, allowing $BORGS tokens and Aniborgs NFTs to move
+              from Solana to the Cosmos-based Borgs blockchain. This bridge will
+              extend the utility of Aniborgs NFTs and $BORGS tokens by unlocking
+              new features and staking benefits on the Borgs Cosmos network.
             </li>
             <li>
               • User-Friendly Asset Movement: Injective’s bridge will facilitate
@@ -151,7 +151,7 @@ const About = () => {
             </li>
             <li>
               • Expanding DeFi and NFT Interoperability: Injective’s cross-chain
-              infrastructure will enable Borgz assets to interact with the
+              infrastructure will enable Borgs assets to interact with the
               broader Cosmos and Solana ecosystems, increasing asset liquidity
               and expanding use cases across DeFi and NFT platforms.
             </li>
@@ -165,13 +165,13 @@ const About = () => {
             <li>
               • Dynamic NFTs with In-Game Utility: Aniborgs NFTs will have
               evolving features, gaining in-game utility and staking privileges
-              within the Cosmos-based Borgz ecosystem. This creates a dynamic
+              within the Cosmos-based Borgs ecosystem. This creates a dynamic
               environment where NFTs gain value through gameplay and can evolve
               based on player achievements or in-game milestones.
             </li>
             <li>
-              • Staking and Reward Mechanisms: Borgz will integrate staking
-              pools where players can earn rewards on $BORGZ tokens. Early
+              • Staking and Reward Mechanisms: Borgs will integrate staking
+              pools where players can earn rewards on $BORGS tokens. Early
               supporters and NFT holders will receive enhanced staking benefits,
               rewarding long-term engagement within the ecosystem.
             </li>
@@ -201,7 +201,7 @@ const About = () => {
             </li>
             <li>
               • DAO Participation: $BORGS is a governance token, giving holders
-              voting power within the Borgz DAO to influence ecosystem direction
+              voting power within the Borgs DAO to influence ecosystem direction
               and decision-making.
             </li>
           </ul>

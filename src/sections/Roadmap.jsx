@@ -513,7 +513,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Collaborate with metaverse platforms to integrate $BORGS and
-                Aniborgz NFTs across digital worlds.
+                Aniborgs NFTs across digital worlds.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
@@ -567,7 +567,7 @@ const Roadmap = () => {
             <div>
               <p>
                 Collaborate with metaverse platforms to integrate $BORGS and
-                Aniborgz NFTs across digital worlds.
+                Aniborgs NFTs across digital worlds.
               </p>
             </div>
             <div className="flex gap items-center gap-4">
