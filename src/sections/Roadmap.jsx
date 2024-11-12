@@ -8,7 +8,7 @@ const Roadmap = () => {
   });
 
   return (
-    <div id="roadmap" className="max-w-[1300px] mx-auto my-20 px-6">
+    <section id="roadmap" className="max-w-[1300px] mx-auto my-20 px-6">
       <div className="mb-24 relative leading-7 uppercase unlock font-black">
         <h2 className=" text-center text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           ROADMAP
@@ -488,8 +488,119 @@ const Roadmap = () => {
             </div>
           </motion.div>
         </div>
+
+        {/* Phase 6 */}
+        {/* Phase 6 */}
+        {/* Phase 6 */}
+        {/* Phase 6 */}
+
+        <div className="grid-container my-6">
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={fadeIn("right", "tween", 0.5, 1)}
+            className="flex flex-col gap-4"
+          >
+            <h1 className="text-2xl unlock">
+              Phase 6: Metaverse Integration and Long-Term Development
+            </h1>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Metaverse Partnerships</p>
+            </div>
+            <div>
+              <p>
+                Collaborate with metaverse platforms to integrate $BORGS and
+                Aniborgz NFTs across digital worlds.
+              </p>
+            </div>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Protocol Upgrades</p>
+            </div>
+            <div>
+              <p>
+                Continuously improve the Borgs blockchain to support new games,
+                optimize performance, and add features aligned with community
+                feedback.
+              </p>
+            </div>
+          </motion.div>
+          <div className="">
+            <div className="flex flex-col items-center gap-4 h-full">
+              <div className="flex items-center justify-center">
+                <p className="text-3xl unlock">06</p>
+              </div>
+              <div className="h-full w-[2px] bg-white" />
+            </div>
+          </div>
+          <div>{/* <img src={ani12} alt="" /> */}</div>
+        </div>
+        <div className="flex md:hidden my-6 gap-6">
+          <div className="">
+            <div className="flex flex-col items-center gap-4 h-full">
+              <div className="flex items-center justify-center">
+                <p className="text-3xl unlock">04</p>
+              </div>
+              <div className="h-full w-[2px] bg-white" />
+            </div>
+          </div>
+          <motion.div
+            initial="hidden"
+            whileInView="show"
+            variants={fadeIn("left", "tween", 0.5, 1.5)}
+            className="flex flex-col gap-4"
+          >
+            <h1 className="text-2xl unlock">
+              Phase 6: Metaverse Integration and Long-Term Development
+            </h1>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Metaverse Partnerships</p>
+            </div>
+            <div>
+              <p>
+                Collaborate with metaverse platforms to integrate $BORGS and
+                Aniborgz NFTs across digital worlds.
+              </p>
+            </div>
+            <div className="flex gap items-center gap-4">
+              <div>
+                <div className="h-6 w-6 rounded-full border-2 border-gray-400" />
+              </div>
+              <p className="">Protocol Upgrades</p>
+            </div>
+            <div>
+              <p>
+                Continuously improve the Borgs blockchain to support new games,
+                optimize performance, and add features aligned with community
+                feedback.
+              </p>
+            </div>
+          </motion.div>
+        </div>
       </div>
-    </div>
+
+      <div className="grid grid-cols-[10px_1fr] gap-3 mt-20 max-w-[50rem] mx-auto">
+        <div className="bg-red-900 h-full w-2" />
+        <h2 className="italic text-[1.5rem]">
+          &quot;Borgs is building a decentralized gaming ecosystem that bridges
+          the accessibility of Solana with the customization and cross-chain
+          capabilities of Cosmos SDK. Using Injective’s technology, Borgs
+          enables seamless asset transfers, empowering players to own their
+          assets across chains. Through $BORGS, Aniborgs NFTs, and community
+          governance, Borgs is establishing a player-owned future in gaming,
+          where users shape their digital experiences across a multi-chain
+          world.&quot;
+        </h2>
+      </div>
+    </section>
   );
 };
 
