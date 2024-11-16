@@ -55,7 +55,7 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <div className="flex items-center justify-between md:hidden w-[80%]">
+      <div className="flex items-center justify-between md:hidden w-full">
         <div>
           <img src={logo} alt="logo" width={70} height={70} />
         </div>
