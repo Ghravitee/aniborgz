@@ -5,7 +5,7 @@ import { zoomIn } from "../utils/motion";
 
 const About = () => {
   return (
-    <div id="about" className="max-w-[1300px] mx-auto rounded-2xl my-20 px-4">
+    <div id="about" className="max-w-[1300px] mx-auto rounded-2xl my-20 px-6">
       <div className="mb-12 relative leading-7 uppercase unlock font-black">
         <h2 className=" text-center text-[3rem] sm:text-[4rem] md:text-[5rem] lg:text-[6rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           ABOUT $BORGS
