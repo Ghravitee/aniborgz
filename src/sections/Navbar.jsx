@@ -1,4 +1,4 @@
-import logo from "../assets/ani-logo.jpg";
+import logo from "../assets/Aniborgz-logo.png";
 import { useState } from "react";
 import AnimatedHamburgerButton from "../components/AnimatedHamburgerButton";
 import { motion } from "framer-motion";
@@ -24,7 +24,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
   return (
-    <header className="w-full py-4 px-2 lg:px-6 fixed top-0 backdrop-blur-sm bg-transparent z-50">
+    <header className="w-full  py-4 px-2 lg:px-6 fixed top-0 backdrop-blur-sm bg-transparent z-50">
       <nav className="hidden md:flex justify-between items-center max-w-screen-xl mx-auto">
         <div>
           <img src={logo} alt="logo" width={70} height={70} />

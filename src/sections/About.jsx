@@ -47,8 +47,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <h2 className="unlock text-[1.7rem] my-8">Architectural Overview</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
+      {/* <h2 className="unlock text-[1.7rem] my-8">Architectural Overview</h2> */}
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
         <div className="mb-6">
           <h3 className="unlock lg:text-[1.2rem]">Initial Solana Deployment</h3>
           <ul className="max-w-[35rem]">
@@ -95,10 +95,10 @@ const About = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Second column */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
         <div className="mb-6">
           <h3 className="unlock lg:text-[1.2rem]">
             Cross-Chain Interoperability with Injective
@@ -150,10 +150,10 @@ const About = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Third column */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-2 mb-10">
         <div className="mb-6">
           <h3 className="unlock lg:text-[1.2rem]">Token Model and Utility</h3>
           <ul className="max-w-[35rem]">
@@ -191,7 +191,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

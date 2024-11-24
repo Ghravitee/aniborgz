@@ -29,3 +29,19 @@ html {
 .custom-pagination .swiper-pagination-bullet-active {
   @apply bg-red-500;
 }
+
+.box {
+  @apply shadow-[rgba(255,0,0,0.56)_0px_22px_70px_4px];
+}
+
+.box-eth {
+  @apply shadow-[1px_1px_20px_#7a88be];
+}
+
+.box-tether {
+  @apply shadow-[1px_1px_20px_#53ae94];
+}
+
+.box-logo {
+  @apply shadow-[1px_1px_20px_#ef4444];
+}

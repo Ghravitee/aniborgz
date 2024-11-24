@@ -22,14 +22,14 @@ const Hero = () => {
     },
   };
 
-  const buttonAnimation = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 1, ease: "easeOut", delay: 0.6 },
-    },
-  };
+  // const buttonAnimation = {
+  //   hidden: { opacity: 0, scale: 0.8 },
+  //   visible: {
+  //     opacity: 1,
+  //     scale: 1,
+  //     transition: { duration: 1, ease: "easeOut", delay: 0.6 },
+  //   },
+  // };
 
   const imageAnimation = {
     hidden: { opacity: 0, x: 100 },
@@ -68,7 +68,7 @@ const Hero = () => {
             true asset ownership across chains.
           </motion.h1>
 
-          <motion.a
+          {/* <motion.a
             href="#_"
             className="relative inline-flex items-center justify-center px-6 md:px-10 py-3 md:py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group mx-auto md:m-0"
             variants={buttonAnimation}
@@ -78,11 +78,11 @@ const Hero = () => {
             <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-red-900 rounded-full group-hover:w-56 group-hover:h-56"></span>
             <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
             <span className="relative text-lg md:text-2xl">Learn More</span>
-          </motion.a>
+          </motion.a> */}
         </div>
 
         <motion.div
-          className="mt-10 md:mt-0 md:absolute bottom-0 md:right-0 flex justify-center md:block w-[17rem] md:w-96 lg:w-[700px] mx-auto"
+          className="mt-10 md:mt-0 md:absolute bottom-0 md:right-0 flex justify-center md:block w-[22rem] md:w-96 lg:w-[700px] mx-auto"
           variants={imageAnimation}
           initial="hidden"
           animate="visible"

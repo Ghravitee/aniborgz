@@ -587,7 +587,7 @@ const Roadmap = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-[10px_1fr] gap-3 mt-20 max-w-[50rem] mx-auto">
+      {/* <div className="grid grid-cols-[10px_1fr] gap-3 mt-20 max-w-[50rem] mx-auto">
         <div className="bg-red-900 h-full w-2" />
         <h2 className="italic text-[1.5rem]">
           &quot;Borgs is building a decentralized gaming ecosystem that bridges
@@ -599,7 +599,7 @@ const Roadmap = () => {
           where users shape their digital experiences across a multi-chain
           world.&quot;
         </h2>
-      </div>
+      </div> */}
     </section>
   );
 };

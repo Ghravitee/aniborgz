@@ -25,31 +25,37 @@ const cards = [
 
 const Comics = () => {
   return (
-    <section id="nft" className="bg-black overflow-hidden">
-      <div className="mb-12 relative leading-7 uppercase unlock font-black">
+    <section
+      id="nft"
+      className="bg-black overflow-hidden border-t border-t-[#001a29]"
+    >
+      {/* <div className="mb-12 relative leading-7 uppercase unlock font-black">
         <h2 className="text-center text-[2rem] sm:text-[4rem] md:text-[5rem] lg:text-[4rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
           $BORGS COLLECTION
         </h2>
         <h2 className="absolute left-0 right-0 mx-auto text-center text-[1.5rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2rem] dark:text-white text-black">
           $BORGS COLLECTION
         </h2>
-      </div>
+      </div> */}
 
       <div className="px-4 md:px-6 py-16">
         {/* Navigation Buttons */}
-        <div className="flex justify-end gap-2 items-center mb-4">
-          <button
-            className="custom-prev bg-gray-700 text-white px-4 py-3 rounded hover:bg-gray-800"
-            aria-label="Previous Slide"
-          >
-            <FaChevronLeft />
-          </button>
-          <button
-            className="custom-next bg-gray-700 text-white px-4 py-3 rounded hover:bg-gray-800"
-            aria-label="Next Slide"
-          >
-            <FaChevronRight />
-          </button>
+        <div className="flex justify-between gap-2 items-center mb-4">
+          <h2 className="text-[2rem] font-bold">Aniborgs Collection</h2>
+          <div className="flex gap-6">
+            <button
+              className="custom-prev bg-gray-900 text-white px-4 py-4 rounded-xl hover:bg-gray-800 border border-[#222]"
+              aria-label="Previous Slide"
+            >
+              <FaChevronLeft />
+            </button>
+            <button
+              className="custom-next bg-gray-900 text-white px-4 py-4 rounded-xl hover:bg-gray-800 border border-[#222]"
+              aria-label="Next Slide"
+            >
+              <FaChevronRight />
+            </button>
+          </div>
         </div>
 
         <Swiper
