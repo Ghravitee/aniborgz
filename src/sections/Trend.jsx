@@ -88,12 +88,12 @@ const Trend = () => {
               Simply create content on X using our #Hashtags.
             </h2>
             <div className="flex justify-center gap-4 lg:flex-col">
-              <a
+              {/* <a
                 href=""
                 className="py-3 px-6 flex items-center justify-start bg-orange-400 text-white rounded-2xl w-fit"
               >
                 Xmmunity.com
-              </a>
+              </a> */}
               <a
                 href=""
                 className="py-3 px-6 flex items-center justify-start bg-gray-800 text-white rounded-2xl w-fit"

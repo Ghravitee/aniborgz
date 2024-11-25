@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import heroBg from "../assets/first-bg.webp";
 import ani1 from "../assets/ani-1.webp";
+import nahVideo from "../assets/nah-video.mp4";
 
 const Hero = () => {
   // Define animations for different elements
@@ -41,12 +42,7 @@ const Hero = () => {
   };
 
   return (
-    <div
-      className="h-screen w-full bg-cover bg-top pt-28 relative"
-      style={{
-        backgroundImage: `url(${heroBg})`,
-      }}
-    >
+    <div className="h-screen w-full">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full bg-black bg-opacity-50 text-white relative max-w-[1300px] mx-auto px-5">
         <div className="flex flex-col gap-5 items-start md:items-start text-center md:text-left">
           <motion.h1
@@ -67,18 +63,6 @@ const Hero = () => {
             Launching on Solana, evolving to Cosmos, and empowering gamers with
             true asset ownership across chains.
           </motion.h1>
-
-          {/* <motion.a
-            href="#_"
-            className="relative inline-flex items-center justify-center px-6 md:px-10 py-3 md:py-4 overflow-hidden font-mono font-medium tracking-tighter text-white bg-gray-800 rounded-lg group mx-auto md:m-0"
-            variants={buttonAnimation}
-            initial="hidden"
-            animate="visible"
-          >
-            <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-red-900 rounded-full group-hover:w-56 group-hover:h-56"></span>
-            <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
-            <span className="relative text-lg md:text-2xl">Learn More</span>
-          </motion.a> */}
         </div>
 
         <motion.div
@@ -90,8 +74,26 @@ const Hero = () => {
           <img src={ani1} alt="Animated Element" className="w-full h-auto" />
         </motion.div>
       </div>
+      {/* <div className="grid grid-cols-1 gap-[40px] lg:gap-12 py-20 ">
+        <video
+          src={nahVideo}
+          controls
+          autoPlay
+          loop
+          muted
+          className="animate-fadeIn delay-[200ms]"
+           style={styles.video}
+        />
+      </div> */}
     </div>
   );
+};
+
+const styles = {
+  video: {
+    width: "100%", // Ensures video fits the grid cell
+    height: "auto",
+  },
 };
 
 export default Hero;

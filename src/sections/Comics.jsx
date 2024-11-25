@@ -29,15 +29,6 @@ const Comics = () => {
       id="nft"
       className="bg-black overflow-hidden border-t border-t-[#001a29]"
     >
-      {/* <div className="mb-12 relative leading-7 uppercase unlock font-black">
-        <h2 className="text-center text-[2rem] sm:text-[4rem] md:text-[5rem] lg:text-[4rem] dark:text-[hsl(0_0%_100%)] text-black opacity-15 tracking-widest">
-          $BORGS COLLECTION
-        </h2>
-        <h2 className="absolute left-0 right-0 mx-auto text-center text-[1.5rem] sm:text-[1.5rem] md:text-[2rem] lg:text-[2rem] dark:text-white text-black">
-          $BORGS COLLECTION
-        </h2>
-      </div> */}
-
       <div className="px-4 md:px-6 py-16">
         {/* Navigation Buttons */}
         <div className="flex justify-between gap-2 items-center mb-4">
@@ -78,7 +69,7 @@ const Comics = () => {
           className=""
         >
           {cards.map((testimonial, index) => (
-            <SwiperSlide key={index} className="relative">
+            <SwiperSlide key={index} className="">
               <div className="w-full h-full">
                 <img
                   src={testimonial.url}
