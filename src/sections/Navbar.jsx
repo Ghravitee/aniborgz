@@ -24,7 +24,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
   return (
-    <header className="w-full  py-4 px-2 lg:px-6 fixed top-0 backdrop-blur-sm bg-transparent z-50">
+    <header className="w-full py-3 px-2 lg:px-6 fixed top-0 backdrop-blur-sm bg-transparent z-50">
       <nav className="hidden md:flex justify-between items-center max-w-screen-xl mx-auto">
         <div>
           <img src={logo} alt="logo" width={70} height={70} />
@@ -57,7 +57,7 @@ const Navbar = () => {
 
       <div className="flex items-center justify-between md:hidden w-full">
         <div>
-          <img src={logo} alt="logo" width={70} height={70} />
+          <img src={logo} alt="logo" width={50} height={50} />
         </div>
         <div onClick={toggleMenu}>
           <AnimatedHamburgerButton />
