@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import heroBg from "../assets/first-bg.webp";
+// import heroBg from "../assets/first-bg.webp";
 import ani1 from "../assets/ani-1.webp";
-import nahVideo from "../assets/nah-video.mp4";
+// import nahVideo from "../assets/nah-video.mp4";
 
 const Hero = () => {
   // Define animations for different elements
