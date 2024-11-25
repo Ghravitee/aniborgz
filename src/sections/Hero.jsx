@@ -89,11 +89,11 @@ const Hero = () => {
   );
 };
 
-const styles = {
-  video: {
-    width: "100%", // Ensures video fits the grid cell
-    height: "auto",
-  },
-};
+// const styles = {
+//   video: {
+//     width: "100%", // Ensures video fits the grid cell
+//     height: "auto",
+//   },
+// };
 
 export default Hero;
