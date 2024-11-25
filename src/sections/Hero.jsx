@@ -111,7 +111,7 @@ const Hero = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(4);
 
-  const totalVidoes = 5;
+  const totalVidoes = 4;
   const nextVideoRef = useRef(null);
 
   const upcomingVideoIndex = (currentIndex % totalVidoes) + 1;
@@ -197,7 +197,7 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/clip-${index}.mp4`;
+  const getVideoSrc = (index) => `videos/clip-${index}-compressed.mp4`;
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       <div
@@ -256,7 +256,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <h1 className="special-font hero-heading absolute unlock bottom-16 right-10 text-[#780606]">
+      <h1 className=" hero-heading absolute unlock bottom-16 right-10 text-[#780606]">
         W<b>o</b>rlds
       </h1>
       {/* <h1 className="special-font hero-heading text-blue-100">
